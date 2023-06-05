@@ -4,49 +4,43 @@
 
 ## Descripción
 
-Este proyecto es un ejemplo de una API RESTful desarrollada con FastAPI que permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en un modelo de películas. Está diseñado con un enfoque académico para que los aprendices de programación backend puedan utilizarlo como punto de partida y comenzar a trabajar sobre él.
+Este proyecto de Sistema de inventarior de una API RESTful desarrollada con FastAPI que permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar). Está diseñado con un enfoque de aprendizaje de programación backend.
 
-## Funcionalidades
+Se tienen problemas de stock dentro del depósito de la compañía, por lo cual es necesario hacer el control de los elementos con el fin de avisar cuando estos estén debajo de 5 unidades, en esta primera fase del proyecto se realizará solo el inventario de los elementos y los proveedores de estos. Se anexa una idea de esquema de base de datos. 
 
-- Obtener todas las películas disponibles
-- Obtener una película por su ID
-- Crear una nueva película
-- Actualizar una película existente
-- Eliminar una película
+También se hará entrega de un backlog para que sea usado en el desarrollo del proyecto.
+
+Solo se debe realizar la API para ser posteriormente conectada al frontend, esta debe tener operaciones CRUD sobre los productos y sobre los proveedores, además se debe tener una relación entre estos.
+
+## Contexto del proyecto
+
+Como desarrollador Fullstack, desarrollar aplicaciones web.
+
+## Base de datos
+
+Base de datos para la clase
+<img src="img/DB.png" alt="Base de datos">
+
+## Backlog
+
+Backlog usados
+
+<img src="img/Backlog.jpg" alt="Backlog">
 
 ## Tecnologías utilizadas
 
 - Python
 - FastAPI
 - Pydantic
+- MySQL
+- Git
 
-## Instalación
+## Entregables
 
-1. Clona este repositorio en tu máquina local:
-
-git clone git@github.com:JSand89/my-movie-app-c9.git
-
-
-2. Navega al directorio del proyecto:
-
-cd my-movie-app-c9
-
-3. Tu o uno de tus companeros debe cambiar el origen del repositorio 
-
-git remote -v
-
-git remote remove origin
-
-git remote add origin <nueva_url_del_repositorio>
-
-4. Ahora, tus compañeros deben clonar tu repositorio y tú debes darles permiso para editarlo
-
-Desde el repositorio en GitHub, ve a "Settings" y luego a la sección de "Collaborators" para agregarlos. Esto tiene como objetivo permitirles realizar cambios. No te preocupes, realizaremos este proceso en clase."
-
-5. Instala las dependencias necesarias:
-
-pip install -r requirements.txt
-
+- Repositorio en GitHub que realiza operaciones:
+- CRUD sobre los productos
+- CRUD sobre los clientes
+- CRUD de la relación entre las dos tablas.
 
 ## Uso
 
@@ -54,17 +48,10 @@ pip install -r requirements.txt
 
 uvicorn main:app --reload
 
-
 2. Accede a la documentación de la API en tu navegador:
 
 http://localhost:8000/docs
 
-
-3. Prueba las diferentes rutas disponibles para realizar operaciones CRUD en las películas.
-
-
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia o quieres el workbook para desarrollar este proyecto, no dudes en contactarme en [jsanchez@educamas.com.co](jsanchez@educamas.com.co).
-
-
+Si tienes alguna pregunta o sugerencia o quieres el workbook para desarrollar este proyecto, no dudes en contactarme en [luisamartinez030503@gmail.com](luisamartinez030503@gmail.com)
