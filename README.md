@@ -1,4 +1,4 @@
-# Proyecto de CRUD de Películas - FastAPI
+# Proyecto de CRUD de Sistema Inventario - FastAPI
 
 <img src="img/programate-academy.png" alt="Logo Programate">
 
@@ -18,12 +18,10 @@ Como desarrollador Fullstack, desarrollar aplicaciones web.
 
 ## Base de datos
 
-Base de datos para la clase
 <img src="img/DB.png" alt="Base de datos">
 
 ## Backlog
 
-Backlog usados
 
 <img src="img/Backlog.jpg" alt="Backlog">
 
@@ -54,4 +52,4 @@ http://localhost:8000/docs
 
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia o quieres el workbook para desarrollar este proyecto, no dudes en contactarme en [luisamartinez030503@gmail.com](luisamartinez030503@gmail.com)
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme en [luisamartinez030503@gmail.com](luisamartinez030503@gmail.com)
